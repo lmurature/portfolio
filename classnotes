@@ -1,0 +1,13 @@
+Angular es un framework para crear aplicaciones de cliente SPA usando HTML y Typescript.
+Typescript es un superset de Javascript
+Conceptos:
+- Modules: elementos fundamentales de una aplicacion,
+organiza la app en bloques funcionales en alta cohesión.
+- Components: definen las vistas. se usa html css y ts,
+son elementos visibles con logica programable. Utilizan
+servicios que proporciona una funcionalidad especifica que no esta
+directamente relacionada con la vista
+- Services and dependency injection: elementos que abarcan funciones
+o caracteristicas que necesita una app Angular. Es una clase
+con proposito estrecho y bien definido.
+- Routing: proporciona un manejo adecuado de rutas y controladores
