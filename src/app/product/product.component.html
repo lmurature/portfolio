@@ -1,0 +1,19 @@
+<h2>Product </h2>
+<ul>
+  <li>
+    {{product.name}}
+  </li>
+  <li>
+    {{product.value|currency}}
+  </li>
+</ul>
+
+<div>
+  <label for="name">Product</label>
+  <input id="name" [(ngModel)]="product.name" placeholder="name">
+</div>
+
+<div>
+  <label for="value">Value</label>
+  <input id="value" [(ngModel)]="product.value" placeholder="value">
+</div>
