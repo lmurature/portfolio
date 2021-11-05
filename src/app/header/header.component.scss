@@ -1,0 +1,32 @@
+.header {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &-img {
+    border-radius: 50%;
+    max-width: 170px;
+    max-height: 170px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  &-attributes {
+    text-align: left;
+
+    &-name {
+      font-weight: 600;
+    }
+  }
+}
+
+li {
+  margin-top: 10px;
+}
