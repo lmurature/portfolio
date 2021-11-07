@@ -1,6 +1,5 @@
 .about {
   padding-top: 70px;
-  padding-bottom: 150px;
   padding-left: 5rem;
   padding-right: 5rem;
   color: #fff;
@@ -15,4 +14,21 @@
     font-size: 18px;
     margin-top: 10px;
   }
+
+  &-card {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.ucc-logo {
+  max-width: 170px;
+  max-height: 170px;
+  width: auto;
+  height: auto;
+}
+
+li {
+  margin-top: 25px;
+  font-size: 16px;
 }
