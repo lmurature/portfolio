@@ -2,7 +2,7 @@
   padding-top: 70px;
   padding-left: 5rem;
   padding-right: 5rem;
-  color: #fff;
+  color: rgb(255, 255, 255);
 
   display: flex;
   align-items: center;
@@ -11,11 +11,12 @@
 
   &-data {
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 10px;
   }
 
   &-card {
+    margin-top: 80px;
     padding: 40px;
     background-color: rgba(255, 255, 255, 0.5);
   }
@@ -31,4 +32,9 @@
 li {
   margin-top: 25px;
   font-size: 16px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 10px;
 }

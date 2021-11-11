@@ -1,1 +1,26 @@
-<div class="contact">Hola contact</div>
+<div class="contact">
+  <div>
+    <div class="title">
+      Contact me!
+    </div>
+  </div>
+  <div>
+    <mat-form-field class="form form-subject" appearance="fill">
+      <mat-label>Subject</mat-label>
+      <input [(ngModel)]="subjectValue" matInput type="text" placeholder="Ex. Proposal">
+    </mat-form-field>
+    </div>
+    <div>
+    <mat-form-field class="form form-body" appearance="fill">
+      <mat-label>Body</mat-label>
+      <textarea [(ngModel)]="bodyValue" 
+        matInput 
+        placeholder="Ex. Hi Lucio! Your profile seems interesting for..."></textarea>
+    </mat-form-field>
+  </div>
+  <div>
+    <button mat-raised-button color="primary">
+      <a href="mailto:luciomurature@gmail.com?subject={{subjectValue}}&body={{bodyValue}}" target="_blank" class="send-email">Send Email</a>
+    </button>
+  </div>
+</div>

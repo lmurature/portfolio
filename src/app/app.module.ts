@@ -21,6 +21,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatListModule,
     MatCardModule,
     MatDividerModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
