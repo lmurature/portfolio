@@ -6,14 +6,14 @@
   </div>
   <div>
     <mat-form-field class="form form-subject" appearance="fill">
-      <mat-label>Subject</mat-label>
-      <input [(ngModel)]="subjectValue" matInput type="text" placeholder="Ex. Proposal">
+      <mat-label class="form-label">Subject</mat-label>
+      <input class="form-subject" [(ngModel)]="subjectValue" matInput type="text" placeholder="Ex. Proposal">
     </mat-form-field>
     </div>
     <div>
     <mat-form-field class="form form-body" appearance="fill">
-      <mat-label>Body</mat-label>
-      <textarea [(ngModel)]="bodyValue" 
+      <mat-label class="form-label">Body</mat-label>
+      <textarea [(ngModel)]="bodyValue"
         class="form-body-input"
         matInput
         cdkTextareaAutosize
